@@ -20,13 +20,15 @@ Daftar teknologi yang digunakan dalam proyek ini:
 
 ## Ringkasan Cara kerjanya
 
-Jika kamu mengakses...,             Maka Gateway meneruskannya ke...
+|Jika kamu mengakses...,        |     Maka Gateway meneruskannya ke...   |
 
-localhost:8888/v1/master/users, &rarr; localhost:9091/v1/master/users
-localhost:8888/v1/transaction/buy, ➡️  localhost:9092/v1/transaction/buy
-localhost:8888/v1/data/report,   ➡️   localhost:9092/v1/data/report
-localhost:8888/actuator/health,   ➡️  (Internal Gateway) Mengecek status aplikasi
+|localhost:8888/v1/master/users, &rarr;| localhost:9091/v1/master/users     |
+|localhost:8888/v1/transaction/buy, ➡️ | localhost:9092/v1/transaction/buy  |
+|localhost:8888/v1/data/report,   ➡️ |   localhost:9092/v1/data/report      |
+|localhost:8888/actuator/health,   ➡️ | (Internal Gateway) Mengecek status aplikasi |
 
+User hanya mengakses api gateway sebagai pintu masuk utama
 
+![API Gateway Architecture](https://github.com/syaiful-scooter/api-gateway/blob/main/gateway_diakses.jpg)
 
 Dibuat dengan ❤️ oleh syaifulscooter
