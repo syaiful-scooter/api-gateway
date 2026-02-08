@@ -28,4 +28,5 @@ localhost:8888/v1/data/report,   ➡️   localhost:9092/v1/data/report
 localhost:8888/actuator/health,   ➡️  (Internal Gateway) Mengecek status aplikasi
 
 
+
 Dibuat dengan ❤️ oleh syaifulscooter
